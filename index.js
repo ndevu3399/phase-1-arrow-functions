@@ -9,7 +9,5 @@ const square = num => num * num;
 // Arrow function for add
 const add = (num1, num2) => num1 + num2;
 
-// Test output (optional, for debugging)
-console.log(divide()); // 20
-console.log(square(4)); // 16
-console.log(add(3, 7)); // 10
+// Export functions for testing
+module.exports = { divide, square, add };
